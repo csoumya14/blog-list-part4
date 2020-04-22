@@ -1,0 +1,10 @@
+POST http://localhost:3001/api/blogs
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InBpcGkiLCJpZCI6IjVlOWM3NTU1NjljNGNhMGIwY2MwZDdkZCIsImlhdCI6MTU4NzQwMTc0Nn0.5Hdbi5Q1PnjxLZPCmN0eSZhQvietPFwFpm7hkxR-zC0
+
+{
+  "title": "Where there is a will there is a way",
+  "author": "strong",
+  "url": "http://blog.willmaker.com/mr-bob/2017/success.htmll",
+  "userId": "5e9c74e769c4ca0b0cc0d7dc"
+}
